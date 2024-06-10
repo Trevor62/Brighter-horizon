@@ -1,0 +1,413 @@
+/* styles.css */
+
+/* General Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    max-height: 500px;
+    font-weight:bold;
+    
+}
+
+#anime {
+
+            animation: imageChange 9s infinite;
+            background-size: cover;
+            background-position: center;
+display:none;
+}
+
+
+ @keyframes imageChange {
+
+0% { background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5200.JPG'); 
+background-position: center;
+    background-size: cover;}
+            33% { background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5201.JPG'); 
+background-position: center;
+    background-size: cover;}
+            66% { background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5202.JPG'); 
+background-position: center;
+    background-size: cover;}
+            100% { background: linear-gradient(rgba(0,0,0,0.5),#251f49), url('IMG_5203.JPG'); 
+background-position: center;
+    background-size: cover;}
+
+}
+
+
+
+
+.logo{
+    width:100px;
+position:absolute; 
+right:40px;
+top:30px; 
+
+animation: rotate 3s infinite;
+}
+
+
+.logo1{
+  
+    
+animation: rotate 3s infinite;
+}
+
+
+@keyframes rotate{
+
+   0%{transform:rotate(0deg)
+
+}
+  100%{transform:rotate(360deg)
+
+
+}
+
+
+
+///0% { background-image: url('IMG_5200.JPG'); }
+            //33% { background-//image: url('IMG_5201.JPG'); }
+            //66% { background-//image: url('IMG_5202.JPG'); }
+            //100% //{ background-///image: url('IMG_5203.JPG'); }
+///}
+
+
+
+}
+nav {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: flex;
+    margin: 10px 10px;
+    padding:10px;
+   
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+container {
+    max-width: 1200px;
+    margin: 20px  auto;
+    padding: 20px;
+    background-color: white;
+    border-radius:;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5191.JPG');
+    background-position: center;
+    background-size: cover;
+position:relative;
+top:-30px;
+
+
+animation: imageChange 5s infinite;
+            background-size: cover;
+            background-position: center;
+         
+}
+
+
+#vip{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5200.JPG');
+    background-position: center;
+    background-size: cover;
+position:relative;
+top:-70px;
+
+
+}
+
+#request{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5201.JPG');
+    background-position: center;
+    background-size: cover;
+position:relative;
+top:-120px;
+
+
+}
+
+#donate{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),#251f49),url('IMG_5202.JPG');
+    background-position: center;
+    background-size: cover;
+position:relative;
+top:-170px;
+
+
+}
+
+
+
+
+#text1{
+    position:relative;
+    left:-30px;
+    width:120px;
+    color:white;
+    text-transform:uppercase;
+    text-align:left;
+    padding-right:15px;
+    font-size:10px;
+
+}
+
+#text2{
+    position:relative;
+    right:-30px;
+    width:120px;
+    color:white;
+    text-transform:uppercase;
+    text-align:right;
+    padding-left:15px;
+    font-size:10px;
+
+}
+
+#text3{
+    position:absolute;
+    bottom:20px;
+    width:120px;
+    color:white;
+    ext-transform:uppercase;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:10px;
+
+
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+margin-bottom:60px
+}
+
+p {
+    line-height: 1.6;
+    color: white;
+position:relative;
+top:-50px;
+
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+            
+}
+
+.images img {
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+        
+
+
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top:0;
+    height:130px;
+    position:relative;
+    top:-210px;
+}
+
+
+
+/* styles.css */
+
+
+
+.popup-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:green;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#b1{
+position:relative;
+left:-10px;
+top:-50px;
+width:100%;
+
+
+}
+
+#b2{
+position:relative;
+left:-10px;
+top:-100px;
+width:100%;
+}
+
+
+#b3{
+position:relative;
+left:-10px;
+top:-150px;
+width:100%;
+}
+
+#b4{
+position:relative;
+left:-10px;
+top:-200px;
+width:100%;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+////////
+
+
+
+.popup-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.popup{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgbai(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+align-items:center;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ 
+
+        
